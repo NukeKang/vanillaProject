@@ -1,0 +1,14 @@
+body {
+    background-color: #3474FF;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: gray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
