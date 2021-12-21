@@ -1,0 +1,35 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.game-start, .put-number {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  background: cornflowerblue;
+  color: aliceblue;
+  font-size: 1.6em;
+  border: none;
+  outline: none;
+  height: 60px;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  font-size: 15px;
+}
+
+
