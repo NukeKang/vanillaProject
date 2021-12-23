@@ -34,6 +34,9 @@ input {
 
 p {
   text-align: center;
+  background-color: aliceblue;
+  width: auto;
+  font-size: 20px;
 }
 
 
