@@ -11,7 +11,7 @@ h1 {
   font-size: 72px;
 }
 
-.game-start, .put-number {
+.game-start, .put-number, .restart  {
   text-align: center;
   padding-bottom: 10px;
 }
@@ -37,6 +37,11 @@ p {
   background-color: aliceblue;
   width: auto;
   font-size: 20px;
+
 }
 
-
+.game_restart {
+  background: brown;
+  height: 30px;
+  visibility: hidden
+}
