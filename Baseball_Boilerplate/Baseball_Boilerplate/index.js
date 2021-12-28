@@ -1,6 +1,5 @@
 let gameStartButton = document.querySelector('.game_start');
 let inputNumber = document.querySelector('.input_number');
-let gameRestart = document.querySelector('.game_restart');
 let answer = '';
 
 gameStartButton.addEventListener('click', handleStartButtonClick);
