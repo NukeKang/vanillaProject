@@ -1,0 +1,61 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.calendar {
+  position: relative;
+  width: 270px;
+  margin: 0 auto;
+}
+
+table {
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.active {
+  border: 2px solid chocolate;
+  padding: 1px
+}
+
+.current-day {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.current-month {
+  text-align: center;
+  margin: 50px auto -20px;
+  font-size: 25px
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button.prev{
+  left: -100px;
+}
+
+.button.next{
+  right: -100px;
+}
