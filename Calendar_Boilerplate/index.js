@@ -122,13 +122,26 @@ function oneMonthLater () {
 }
 
 // 특정 날짜를 클릭 했을때, 상단의 요일 및 날짜 반영하기
-    // currentDay[0].textContent = td
-    for (var i = 0; i < td.length; i++) {
-        td[i].addEventListener('click', showDate)
+for (var i = 0; i < td.length; i++) {
+    var DAYS = [
+        'SUN',
+        'MON',
+        'TUE',
+        'WED',
+        'THU',
+        'FRI',
+        'SAT'
+    ];
+    
+    td[i].onclick = function (ev) {
+        if (!ev.target.textContent) {
+            return;
+        }
+        if (ev.target.cellIndex < 7) {
+            currentDay[0].textContent = DAYS[ev.target.cellIndex];
+        } else {
+            currentDay[0].textContent = DAYS[(ev.target.cellIndex) % 7];
+        }
+        currentDay[1].textContent = this.innerText;
     }
-    function showDate () {
-        currentDay[1].textContent = 123
-    }
-// for (var i = 0; i < td.length; i++) {
-
-// }
+}
